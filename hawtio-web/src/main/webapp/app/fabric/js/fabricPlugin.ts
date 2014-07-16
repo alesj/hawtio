@@ -25,6 +25,7 @@ module Fabric {
     $routeProvider.
             when('/fabric/containers/createContainer', {templateUrl: templatePath + 'createContainer.html', reloadOnSearch: false }).
             when('/fabric/map', {templateUrl: templatePath + 'map.html'}).
+            when('/fabric/deploy', {templateUrl: templatePath + 'deploy.html'}).
             when('/fabric/clusters/*page', {templateUrl: templatePath + 'clusters.html'}).
             when('/fabric/containers', {templateUrl: templatePath + 'containers.html', reloadOnSearch: false}).
             when('/fabric/container/:containerId', {templateUrl: templatePath + 'container.html', reloadOnSearch: false}).

@@ -22,6 +22,9 @@
   <li ng-show="hasFabric && mapsEnabled" ng-class='{active : isActive("#/fabric/map")}'>
     <a ng-href="#/fabric/map{{hash}}" title="View the containers on a Google map">Map</a>
   </li>
+  <li ng-show="hasFabric" ng-class='{active : isActive("#/fabric/deploy")}'>
+    <a ng-href="#/fabric/deploy{{hash}}" title="Upload and deploy applications">Deploy</a>
+  </li>
   <li ng-show="droolsHref">
     <a ng-href="{{droolsHref}}" target="drools" title="View and manage the rules and workflows in this Fabric">Rules</a>
   </li>
